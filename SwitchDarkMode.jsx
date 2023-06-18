@@ -26,7 +26,7 @@ const SwitchDarkMode = () => {
       <span
         className={`${
           toggle ? "translate-x-14 bg-white" : "translate-x-2 bg-black"
-        } cursor-pointer w-8 h-8  absolute translate-y-[-37px] rounded-full transform transition-all`}
+        } cursor-pointer w-8 h-8  absolute translate-y-[-37px] rounded-full transform transition-transform`}
         onClick={handleToggle}
       />
     </div>
